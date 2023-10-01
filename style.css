@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.main {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main > * {
+    width: 20%;
+}
+
+.main > h1 {
+    text-wrap: balance;
+}
+
+#show-btn {
+    background-color: aquamarine;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+}
+
+#result {
+    text-align: center;
+}
